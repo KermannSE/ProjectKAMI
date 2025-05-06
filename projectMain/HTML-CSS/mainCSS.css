@@ -66,10 +66,17 @@ nav a:hover{
     color: var(--main-very-light);
 }
 
+img {
+    margin-left: 20px;
+    margin-bottom: 10px;
+    max-width: 150%;
+}
 
 /*********************************
 * Footer
 *********************************/
+
+
 #footer{
     color: var(--main-very-light);
     background-color: var(--main-very-dark);
@@ -77,6 +84,8 @@ nav a:hover{
     bottom: 0;
     width: 100%;
     margin: 0px;
+    clear: both;
+    padding: 10px, 0;
 }
 
 /********************************
@@ -140,17 +149,8 @@ form *{
     border: none;
 }
 
-label{
-    display: block;
-    margin-top: 30px;
-    font-size: 16px;
-    font-weight: 500;
-    text-align: left;
-}
-
 .container {
     text-align: center;
 }
-
 
 
